@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+    <style>
+        
+        .parent{
+            height: 100vh;
+            display: flex;
+            background-color: rgb(26, 156, 145);
+            justify-content: center;
+            align-items: center;
+
+        }
+        .childOne{
+            background-color: rgb(220, 39, 127);
+            width: 200px;
+            height: 200px;
+
+        }
+        .childOne:hover{
+            background-color: blue;
+            transform: scale(1.4);
+            transition:  ease-in;
+        }
+        .childTwo{
+            background-color: rgb(3, 233, 3);
+            width: 200px;
+            height: 200px;
+        }
+        .childTwo:hover{
+            background-color: white;
+            transform: scale(1.4);
+            transition: 0s ease-in;
+        }
+        .logo{
+            flex: 1;
+        }
+        .menus{
+            flex: 3;
+    
+        }
+        .menus ul{
+            display: flex;
+            gap: 20px;
+            justify-content: flex-end;
+            list-style-type: none;
+        }
+        .menus ul li a{
+            text-decoration: none;
+
+        }
+        .navbar{
+            font-family: "Jaro", sans-serif;
+            background-color:white;
+            
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="">
+        </div>
+        <div class="menus">
+            <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">How to reach</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">Home</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="parent">
+        <div class="childOne"></div>
+        <div class="childTwo"></div>
+    </div>
+</body>
+</html>
