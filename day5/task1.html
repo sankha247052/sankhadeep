@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parant{
+            display: flex;
+            flex-wrap: wrap;  
+
+        }
+        .parant div{
+            background-image: url(https://wallup.net/wp-content/uploads/2019/09/433436-leaves-landscape-beautiful-nature-sunbeams-sunlight-autumn-trees-fog-mist-sunrise-mood-1.jpg);
+            height: 900px;
+            width: 11600px;
+            background-size: cover;
+            
+
+        }
+        @media (max-width:1028px) {
+            .parant div {
+                height: 500px;
+                width: 1500px;
+                background-image: url(https://images.hdqwalls.com/wallpapers/moon-clouds-night-scenery-4k-n8.jpg);
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+        }
+        @media (max-width:350px){
+            .parant div{
+                height: 250px;
+                width: 250px;
+                background-image: url(http://hdqwalls.com/wallpapers/mountain-peaks-beautiful-scenery.jpg);
+                
+            }
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="parant">
+        <div class="childOne"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parant{
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .parant div{
+            height: 600px;
+            width: 600px;
+            background-image: url(https://re-thought.com/content/images/2022/10/1027871969_Landscape__Fantasy_world__by_Charlie_Bowater__by_Wangechi_Mutu__Unreal_Engine__Pantone__Moody_Lighting__matte_painting_trending_on_artstation_HQ__pastel_colours__pink__blue__violet.png);
+            background-size: cover;
+        }
+        @media (max-width:720px) {
+            .parant div {
+                height: 300px;
+                width: 300px;
+
+            }
+        }
+        @media (max-width:543px){
+            .parant div{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+                
+            }
+        }
+    </style>
+ </head>
+ <body>
+    <div class="parant">
+        <div class="childOne"></div>
+        <div class="childTwo"></div>
+        <div class="childThree"></div>
+        <div class="childFour"></div>
+    </div>
+ </body>
+ </html>
